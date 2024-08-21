@@ -1,0 +1,35 @@
+body {
+  background-color: #F1DEC6;
+  margin: 0;
+}
+
+/*Esta clase sirve para poder alinear todos los elementos en la parte superior sin que se salgan de la linea*/
+.principal {
+  /*background-color: #179BAE;*/
+ display:flex;
+}
+
+.secundario {
+  display: flex;
+}
+
+a {
+  background-color: #FF8343;
+  padding: 0px 10px;
+  border: 5px solid #FF8343 ;
+  text-decoration: none;
+  color: #4158A6;
+}
+
+a:hover {
+  background-color: #179BAE;
+  color: #F1DEC6;
+  border: 5px solid #4158A6;
+}
+
+.ultimo {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+}
+
